@@ -1,1 +1,1 @@
-This is pinterest style SNS playform
+This is pinterest style SNS platform
