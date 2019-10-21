@@ -1,0 +1,115 @@
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+  box-sizing: border-box;
+}
+figcaption {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+.container {
+  padding: 5px;
+  width: 1200px;
+  columns: 5;
+  column-gap: 10px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.container figure {
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 5px 5px;
+  box-shadow: none;
+  padding: 0;
+}
+
+.content_userinfo_name {
+  margin: 10px;
+  font-size: 0.8em;
+}
+
+.container .box img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.container .box .image_div {
+  position: relative;
+}
+.hover_section {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.content_title_div {
+  text-align: center;
+  display: flow-root;
+}
+
+.content_title_div h2 {
+  float: left;
+  font-size: 0.7em;
+  color: rgb(70, 70, 70);
+}
+
+.content_title_div p {
+  float: right;
+  font-size: 0.5em;
+  color: gray;
+}
+
+.content_title_div p svg {
+  margin-right: 3px;
+}
+
+// #columns{
+//     column-width:350px;
+//     column-gap: 15px;
+//   }
+//   #columns figure{
+//     display: inline-block;
+//     border:1px solid rgba(0,0,0,0.2);
+//     margin:0;
+//     margin-bottom: 15px;
+//     padding:10px;
+//     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+//   }
+//   #columns figure img{
+//     width:100%;
+//   }
+//   #columns figure figcaption{
+//     border-top:1px solid rgba(0,0,0,0.2);
+//     padding:10px;
+//     margin-top:11px;
+//   }

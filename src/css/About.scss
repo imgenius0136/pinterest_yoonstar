@@ -1,0 +1,46 @@
+#profile_photo {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.profile_div {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.profile_div .profile_div_job {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.profile_div .profile_div_name {
+  font-size: 1.8em;
+}
+.profile_div .profile_div_email {
+  font-size: 0.9em;
+}
+.profile_div .profile_div_phone {
+  font-size: 0.9em;
+  border-bottom: 1px gray solid;
+  padding-bottom: 10px;
+}
+
+.profile_div_stacktitle {
+  font-size: 1.8em;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.profile_div .profile_div_stack {
+  height: 100px;
+  margin: auto;
+}
+
+.profile_div .profile_div_stack td {
+  display: inline;
+}
+
+.profile_div .profile_div_stack tr td {
+  text-align: center;
+  padding: 10px;
+}

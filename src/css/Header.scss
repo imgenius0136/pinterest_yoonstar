@@ -1,0 +1,39 @@
+@font-face {
+  font-family: yoonstartgram;
+  src: url("./fonts/Aquatico-Regular.otf");
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.logo_image {
+  background: black;
+}
+
+.navbar-logo {
+  color: rgb(95, 95, 95);
+  font-size: 1.5em;
+  margin: 10px;
+}
